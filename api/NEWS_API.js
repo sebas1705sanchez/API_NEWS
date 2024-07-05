@@ -16,6 +16,7 @@ class NEWS_API {
     },          
   });
 
+  //realiza las solicitudes
   static async get(endpoint, params) {
     return this.api.get(endpoint, params);
   }
