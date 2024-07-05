@@ -17,7 +17,7 @@ export const getBreakingEvents = async (req, res) => {
         breakingEventsCount: pageSize,
       },
     });   
-    res.json(response.data);
+    return res.send(response.data.breakingEvents.results);
   } catch (error) {
     console.log(error);
   }
