@@ -26,6 +26,6 @@ app.use("/api", articlesRouter);
 app.use("/api", breackingEventsRouter);
 
 app.listen(PORT, () => {
-    console.clear();
-    console.log("Server running on port: " + PORT);
+  console.clear();
+  console.log("Server running on port: " + PORT);
 });
